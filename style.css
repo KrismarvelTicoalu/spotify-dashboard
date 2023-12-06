@@ -1,0 +1,24 @@
+main {
+    display: grid;
+    grid-template-columns: 350px 1fr 350px;
+    grid-template-rows: 250px 1fr;
+    grid-template-areas: 
+    "navbar view profile"
+    "library view profile";
+}
+
+.navbar {
+    grid-area: navbar;
+}
+
+.library {
+    grid-area: library;
+}
+
+.view {
+    grid-area: view;
+}
+
+.profile {
+    grid-area: profile;
+}
